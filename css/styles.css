@@ -144,38 +144,18 @@ i {
 /* #endregion */
 
 
-/* #region preloader  */
-
-/* #preloader {
-  background:var(--no-color) url(../video/preloader.gif) no-repeat center center;
-  background-size: 100%;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-
-#ocultar{
-  display: none;
-} */
-/* #endregion */
-
-
-
 
 
 
 
 /*#region nav*/
 header {
-
+  height: 8vh;
   background: var(--clr-black);
-  /* background-image: url(../img/bg-banner1.jpg); */
   background-size: cover;
   object-fit: cover;
   width: auto;
   z-index: -1000;
-
 
   & nav {
     /* position: fixed; */
@@ -382,6 +362,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 92vh;
 
   .banner {
     display: flex;
@@ -1079,15 +1060,9 @@ header {
 
 /*#endregion*/
 
-
-
-
-
-
 /*#region serviços */
 .melado {
   height: 100vh;
-  /* padding-top: 6vh; */
 
   .melado-black {
     height: 100%;
